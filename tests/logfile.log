@@ -1,0 +1,697 @@
+2020-07-23 12:08:22,652 :INFO : test_5MB :Updating 5MB package details
+2020-07-23 12:08:22,672 :INFO : test_5MB :ATT v38 00 to v38 00 5MB
+2020-07-23 12:08:22,672 :INFO : test_5MB :Upgrade from ATT v38 to v38 5MB
+2020-07-23 12:08:22,672 :INFO : test_5MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 12:08:22,672 :INFO : test_5MB :5SA.0.4-98-8.1.0-10.38.00.5MB
+2020-07-23 12:08:22,760 :INFO : test_5MB :D:\Python_XDM\packages\ATT_v38_00_to_v38_00_5MB.zip
+2020-07-23 12:08:32,511 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 12:11:46,762 :INFO : verifyResult :     Firmware already exists for same model, source version and target version.     
+2020-07-23 12:19:14,749 :INFO : test_5MB :upload failed
+2020-07-23 12:19:14,749 :INFO : test_5MB :=============moving to next upload !!!=============
+2020-07-23 13:14:48,960 :INFO : test_5MB :Updating 5MB package details
+2020-07-23 13:14:48,960 :INFO : test_5MB :ATT v38 00 to v38 00 5MB
+2020-07-23 13:14:48,960 :INFO : test_5MB :Upgrade from ATT v38 to v38 5MB
+2020-07-23 13:14:48,960 :INFO : test_5MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 13:14:48,960 :INFO : test_5MB :5SA.0.4-98-8.1.0-10.38.00.5MB
+2020-07-23 13:14:50,974 :INFO : test_5MB :D:\Python_XDM\packages\ATT_v38_00_to_v38_00_5MB.zip
+2020-07-23 13:15:27,238 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 13:15:27,513 :INFO : verifyResult :     Firmware already exists for same model, source version and target version.     
+2020-07-23 14:15:50,052 :INFO : test_5MB :Updating 5MB package details
+2020-07-23 14:15:50,084 :INFO : test_5MB :ATT v38 00 to v38 00 5MB
+2020-07-23 14:15:50,085 :INFO : test_5MB :Upgrade from ATT v38 to v38 5MB
+2020-07-23 14:15:50,085 :INFO : test_5MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 14:15:50,085 :INFO : test_5MB :5SA.0.4-98-8.1.0-10.38.00.5MB
+2020-07-23 14:15:50,384 :INFO : test_5MB :D:\Python_XDM\packages\ATT_v38_00_to_v38_00_5MB.zip
+2020-07-23 14:16:00,375 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 14:16:22,649 :INFO : verifyResult :     Firmware already exists for same model, source version and target version.     
+2020-07-23 16:14:09,941 :INFO : test_main_downgrade_package :Updating Main downgrade package details
+2020-07-23 16:14:09,988 :INFO : test_main_downgrade_package :ATT v38 00 to v26 00
+2020-07-23 16:14:09,988 :INFO : test_main_downgrade_package :Downgrade from ATT v38 00 to V26 00
+2020-07-23 16:14:09,988 :INFO : test_main_downgrade_package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 16:14:09,988 :INFO : test_main_downgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-23 16:14:11,238 :INFO : test_main_downgrade_package :D:\Python_XDM\packages\ATT_USER_38.00-26.00.zip
+2020-07-23 16:19:36,117 :INFO : test_1200MB :Updating 1200MB package details
+2020-07-23 16:19:36,118 :INFO : test_1200MB :ATT v38.00 to v38.00-1200MB
+2020-07-23 16:19:36,118 :INFO : test_1200MB :Upgrade from ATT USER v38 to v38 1200MB
+2020-07-23 16:19:36,118 :INFO : test_1200MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 16:19:36,118 :INFO : test_1200MB :5SA.0.4-98-8.1.0-10.38.00.1200MB
+2020-07-23 16:19:37,316 :INFO : test_1200MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-1200MB.zip
+2020-07-23 16:25:00,102 :INFO : test_main_upgrade_package :Updating Main upgrade package details
+2020-07-23 16:25:00,102 :INFO : test_main_upgrade_package :ATT_USER_26.00-38.00
+2020-07-23 16:25:00,102 :INFO : test_main_upgrade_package :Upgrade from ATT v26 MR2 TA to v38 MR5  IFW2
+2020-07-23 16:25:00,102 :INFO : test_main_upgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-23 16:25:00,102 :INFO : test_main_upgrade_package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 16:25:01,245 :INFO : test_main_upgrade_package :D:\Python_XDM\packages\ATT_USER_26.00-38.00.zip
+2020-07-23 16:30:31,076 :INFO : test_200MB :Updating 200MB package details
+2020-07-23 16:30:31,076 :INFO : test_200MB :ATT v38.00 to v38.00-200MB
+2020-07-23 16:30:31,076 :INFO : test_200MB :Upgrade from ATT USER v38 to v38 200MB
+2020-07-23 16:30:31,076 :INFO : test_200MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 16:30:31,076 :INFO : test_200MB :5SA.0.4-98-8.1.0-10.38.00.200MB
+2020-07-23 16:30:33,905 :INFO : test_200MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-200MB.zip
+2020-07-23 17:30:26,155 :INFO : test_main_downgrade_package :Updating Main downgrade package details
+2020-07-23 17:30:26,156 :INFO : test_main_downgrade_package :ATT v38 00 to v26 00
+2020-07-23 17:30:26,156 :INFO : test_main_downgrade_package :Downgrade from ATT v38 00 to V26 00
+2020-07-23 17:30:26,156 :INFO : test_main_downgrade_package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 17:30:26,156 :INFO : test_main_downgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-23 17:30:26,359 :INFO : test_main_downgrade_package :D:\Python_XDM\packages\ATT_USER_38.00-26.00.zip
+2020-07-23 17:30:36,388 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 17:39:17,679 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 17:39:46,615 :INFO : test_1200MB :Updating 1200MB package details
+2020-07-23 17:39:46,615 :INFO : test_1200MB :ATT v38.00 to v38.00-1200MB
+2020-07-23 17:39:46,615 :INFO : test_1200MB :Upgrade from ATT USER v38 to v38 1200MB
+2020-07-23 17:39:46,615 :INFO : test_1200MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 17:39:46,615 :INFO : test_1200MB :5SA.0.4-98-8.1.0-10.38.00.1200MB
+2020-07-23 17:39:46,780 :INFO : test_1200MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-1200MB.zip
+2020-07-23 17:39:56,845 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 17:39:56,845 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 18:59:42,080 :INFO : verifyResult2hrTimeout :     Firmware added successfully     
+2020-07-23 19:00:23,878 :INFO : test_main_upgrade_package :Updating Main upgrade package details
+2020-07-23 19:00:23,878 :INFO : test_main_upgrade_package :ATT_USER_26.00-38.00
+2020-07-23 19:00:23,879 :INFO : test_main_upgrade_package :Upgrade from ATT v26 MR2 TA to v38 MR5  IFW2
+2020-07-23 19:00:23,879 :INFO : test_main_upgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-23 19:00:23,879 :INFO : test_main_upgrade_package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 19:00:24,051 :INFO : test_main_upgrade_package :D:\Python_XDM\packages\ATT_USER_26.00-38.00.zip
+2020-07-23 19:00:33,928 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:00:33,928 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:00:33,928 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:11:02,690 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:11:02,690 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:11:27,944 :INFO : test_200MB :Updating 200MB package details
+2020-07-23 19:11:27,944 :INFO : test_200MB :ATT v38.00 to v38.00-200MB
+2020-07-23 19:11:27,944 :INFO : test_200MB :Upgrade from ATT USER v38 to v38 200MB
+2020-07-23 19:11:27,944 :INFO : test_200MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 19:11:27,944 :INFO : test_200MB :5SA.0.4-98-8.1.0-10.38.00.200MB
+2020-07-23 19:11:28,110 :INFO : test_200MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-200MB.zip
+2020-07-23 19:11:38,071 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:11:38,071 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:11:38,071 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:11:38,071 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:25:05,410 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:25:05,410 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:25:05,410 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:25:31,803 :INFO : test_20MB :Updating 20MB package details
+2020-07-23 19:25:31,803 :INFO : test_20MB :ATT v38.00 to v38.00-20MB
+2020-07-23 19:25:31,803 :INFO : test_20MB :Upgrade from ATT USER v38 to v38 20MB
+2020-07-23 19:25:31,803 :INFO : test_20MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 19:25:31,803 :INFO : test_20MB :5SA.0.4-98-8.1.0-10.38.00.20MB
+2020-07-23 19:25:31,916 :INFO : test_20MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-20MB.zip
+2020-07-23 19:25:41,659 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:25:41,659 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:25:41,659 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:25:41,659 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:25:41,659 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:27:01,554 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:27:01,554 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:27:01,554 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:27:01,554 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:27:27,883 :INFO : test_250MB :Updating 250MB package details
+2020-07-23 19:27:27,883 :INFO : test_250MB :ATT v38.00 to v38.00-250MB
+2020-07-23 19:27:27,883 :INFO : test_250MB :Upgrade from ATT USER v38 to v38 250MB
+2020-07-23 19:27:27,883 :INFO : test_250MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 19:27:27,883 :INFO : test_250MB :5SA.0.4-98-8.1.0-10.38.00.250MB
+2020-07-23 19:27:28,052 :INFO : test_250MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-250MB.zip
+2020-07-23 19:27:37,887 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:27:37,887 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:27:37,887 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:27:37,887 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:27:37,887 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:27:37,887 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:17,302 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:44:17,302 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:44:17,302 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:44:17,302 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:44:17,302 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 19:44:48,386 :INFO : test_500MB :Updating 500MB package details
+2020-07-23 19:44:48,386 :INFO : test_500MB :ATT v38.00 to v38.00-500MB
+2020-07-23 19:44:48,386 :INFO : test_500MB :Upgrade from ATT USER v38 to v38 500MB
+2020-07-23 19:44:48,386 :INFO : test_500MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 19:44:48,386 :INFO : test_500MB :5SA.0.4-98-8.1.0-10.38.00.500MB
+2020-07-23 19:44:48,533 :INFO : test_500MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-500MB.zip
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 19:44:58,347 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:10,816 :INFO : verifyResult2hrTimeout :     Firmware added successfully     
+2020-07-23 20:19:10,816 :INFO : verifyResult2hrTimeout :     Firmware added successfully     
+2020-07-23 20:19:48,272 :INFO : test_50MB :Updating 50MB package details
+2020-07-23 20:19:48,272 :INFO : test_50MB :ATT v38.00 to v38.00-50MB
+2020-07-23 20:19:48,273 :INFO : test_50MB :Upgrade from ATT USER v38 to v38 50MB
+2020-07-23 20:19:48,273 :INFO : test_50MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:19:48,273 :INFO : test_50MB :5SA.0.4-98-8.1.0-10.38.00.50MB
+2020-07-23 20:19:48,425 :INFO : test_50MB :D:\Python_XDM\packages\ATT v38.00 to v38.00-50MB.zip
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:19:58,093 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:15,835 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:23:15,835 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:23:15,835 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:23:15,835 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:23:15,835 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:23:15,835 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:23:44,381 :INFO : test_5MB :Updating 5MB package details
+2020-07-23 20:23:44,382 :INFO : test_5MB :ATT v38 00 to v38 00 5MB
+2020-07-23 20:23:44,382 :INFO : test_5MB :Upgrade from ATT v38 to v38 5MB
+2020-07-23 20:23:44,382 :INFO : test_5MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:23:44,383 :INFO : test_5MB :5SA.0.4-98-8.1.0-10.38.00.5MB
+2020-07-23 20:23:44,526 :INFO : test_5MB :D:\Python_XDM\packages\ATT_v38_00_to_v38_00_5MB.zip
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:23:54,355 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:18,252 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:24:46,872 :INFO : test_Common_Downgrade_Package :Updating common downgrade test package details
+2020-07-23 20:24:46,872 :INFO : test_Common_Downgrade_Package :ATT v38 SVN 98 to v38 SVN 14
+2020-07-23 20:24:46,872 :INFO : test_Common_Downgrade_Package :Downgrade from ATT v38 SVN 98 to v38 SVN 14
+2020-07-23 20:24:46,872 :INFO : test_Common_Downgrade_Package :5SA.0.4-98-8.1.0-10.38.00
+2020-07-23 20:24:46,873 :INFO : test_Common_Downgrade_Package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:24:47,051 :INFO : test_Common_Downgrade_Package :D:\Python_XDM\packages\ATT v38 SVN 98 to v38 SVN 14.zip
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:24:57,240 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:21,346 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:25:49,058 :INFO : test_Corrupt_Package :Updating corrupt package details
+2020-07-23 20:25:49,058 :INFO : test_Corrupt_Package :ATT v38 00 to v38 00 corrupt
+2020-07-23 20:25:49,058 :INFO : test_Corrupt_Package :Upgrade from ATT v38 to v38 corrupt
+2020-07-23 20:25:49,059 :INFO : test_Corrupt_Package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:25:49,059 :INFO : test_Corrupt_Package :5SA.0.4-98-8.1.0-10.38.00_Corrupt
+2020-07-23 20:25:49,319 :INFO : test_Corrupt_Package :D:\Python_XDM\packages\ATT v38 00 to v38 00 corrupt.zip
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:25:59,292 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:19,223 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:26:46,612 :INFO : test_Double_Upgrade_Package :Updating double upgrade package details
+2020-07-23 20:26:46,612 :INFO : test_Double_Upgrade_Package :ATT v38 SVN 98 to v38.20 SVN 98
+2020-07-23 20:26:46,612 :INFO : test_Double_Upgrade_Package :Upgrade from ATT v38 SVN 98 to v38 20 SVN 98
+2020-07-23 20:26:46,613 :INFO : test_Double_Upgrade_Package :5SA.0.4-98-8.1.0-10.38.00
+2020-07-23 20:26:46,613 :INFO : test_Double_Upgrade_Package :5SA.0.4-98-8.1.0-10.38.20
+2020-07-23 20:26:46,765 :INFO : test_Double_Upgrade_Package :D:\Python_XDM\packages\ATT v38 SVN 98 to v38.20 SVN 98.zip
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:26:56,594 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:19,247 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:28:51,230 :INFO : test_Downgrade_of_Double_Upgrade_Package :Updating downgrade of double upgrade test package details
+2020-07-23 20:28:51,231 :INFO : test_Downgrade_of_Double_Upgrade_Package :ATT v38.20 SVN 98 to v38 SVN 14
+2020-07-23 20:28:51,231 :INFO : test_Downgrade_of_Double_Upgrade_Package :Downgrade from ATT v38 20 SVN 98 to v38 SVN 14
+2020-07-23 20:28:51,231 :INFO : test_Downgrade_of_Double_Upgrade_Package :5SA.0.4-98-8.1.0-10.38.20
+2020-07-23 20:28:51,231 :INFO : test_Downgrade_of_Double_Upgrade_Package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:28:51,531 :INFO : test_Downgrade_of_Double_Upgrade_Package :D:\Python_XDM\packages\ATT v38.20 SVN 98 to v38 SVN14.zip
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:01,842 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:16,473 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:29:46,782 :INFO : test_SVN_Downgrade_Package :Updating svn downgrade test package details
+2020-07-23 20:29:46,783 :INFO : test_SVN_Downgrade_Package :ATT v38 SVN 99  to v38 SVN 14
+2020-07-23 20:29:46,783 :INFO : test_SVN_Downgrade_Package :Downgrade from ATT v38 SVN 99 to v38 SVN 14
+2020-07-23 20:29:46,783 :INFO : test_SVN_Downgrade_Package :5SA.0.4-99-8.1.0-10.38.00
+2020-07-23 20:29:46,783 :INFO : test_SVN_Downgrade_Package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:29:47,053 :INFO : test_SVN_Downgrade_Package :D:\Python_XDM\packages\ATT v38 SVN 99 to v38 SVN 14.zip
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:29:57,312 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:10,958 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:30:42,200 :INFO : test_SVN_Upgrade_Package :Updating svn upgrade package details
+2020-07-23 20:30:42,200 :INFO : test_SVN_Upgrade_Package :ATT v38 SVN 14  tov38 SVN 99 
+2020-07-23 20:30:42,200 :INFO : test_SVN_Upgrade_Package :Upgrade from ATT v38 SVN 14 to v38 SVN 99
+2020-07-23 20:30:42,201 :INFO : test_SVN_Upgrade_Package :5SA.0.4-14-8.1.0-10.38.00
+2020-07-23 20:30:42,201 :INFO : test_SVN_Upgrade_Package :5SA.0.4-99-8.1.0-10.38.00
+2020-07-23 20:30:42,417 :INFO : test_SVN_Upgrade_Package :D:\Python_XDM\packages\ATT v38 SVN 14 to v38 SVN 99.zip
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:30:52,301 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-23 20:31:05,965 :INFO : verifyResult :     Firmware added successfully     
+2020-07-24 19:45:24,345 :INFO : test_5MB :Updating 5MB package details
+2020-07-24 19:45:24,345 :INFO : test_5MB :ATT v38 00 to v38 00 5MB
+2020-07-24 19:45:24,345 :INFO : test_5MB :Upgrade from ATT v38 to v38 5MB
+2020-07-24 19:45:24,345 :INFO : test_5MB :5SA.0.4-14-8.1.0-10.38.00
+2020-07-24 19:45:24,345 :INFO : test_5MB :5SA.0.4-98-8.1.0-10.38.00.5MB
+2020-07-24 19:45:24,430 :INFO : test_5MB :D:\Python_XDM\packages\ATT_v38_00_to_v38_00_5MB.zip
+2020-07-24 19:45:34,175 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-24 19:46:06,452 :INFO : verifyResult :     Firmware already exists for same model, source version and target version.     
+2020-07-24 20:08:12,681 :INFO : test_main_upgrade_package :Updating extra package details
+2020-07-24 20:08:12,681 :INFO : test_main_upgrade_package :ATT_USER_26.00-41.00
+2020-07-24 20:08:12,681 :INFO : test_main_upgrade_package :Upgrade from ATT v26 TA to v41 MR6 IFW4
+2020-07-24 20:08:12,681 :INFO : test_main_upgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-24 20:08:12,681 :INFO : test_main_upgrade_package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-24 20:08:12,781 :INFO : test_main_upgrade_package :D:\Python_XDM\packages\v41_IFW4\ATT_USER_26.00-41.00.zip
+2020-07-24 20:08:22,514 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-24 20:18:52,511 :INFO : verifyResult :     Firmware added successfully     
+2020-07-24 20:28:19,868 :INFO : test_main_upgrade_package :Updating extra package details
+2020-07-24 20:28:19,868 :INFO : test_main_upgrade_package :ATT_USER_26.00-41.00
+2020-07-24 20:28:19,868 :INFO : test_main_upgrade_package :Upgrade from ATT v26 TA to v41 MR6 IFW4
+2020-07-24 20:28:19,868 :INFO : test_main_upgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-24 20:28:19,868 :INFO : test_main_upgrade_package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-24 20:28:19,969 :INFO : test_main_upgrade_package :D:\Python_XDM\packages\v41_IFW4\ATT_v41.00 to v26.00.zip
+2020-07-24 20:28:29,862 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-24 20:31:34,653 :INFO : test_main_downgrade_package :Updating Main downgrade package details
+2020-07-24 20:31:34,653 :INFO : test_main_downgrade_package :ATT_v41.00 to v26.00
+2020-07-24 20:31:34,653 :INFO : test_main_downgrade_package :Downgrade from ATT v41 00 to V26 00
+2020-07-24 20:31:34,653 :INFO : test_main_downgrade_package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-24 20:31:34,653 :INFO : test_main_downgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-24 20:31:34,754 :INFO : test_main_downgrade_package :D:\Python_XDM\packages\v41_IFW4\ATT_v41.00 to v26.00.zip
+2020-07-24 20:31:44,705 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-24 20:45:00,624 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:50:07,577 :INFO : test_Corrupt_Package :Updating corrupt package details
+2020-07-25 17:50:07,595 :INFO : test_Corrupt_Package :ATT v41 00 to v41 00 corrupt
+2020-07-25 17:50:07,595 :INFO : test_Corrupt_Package :Upgrade from ATT v41 to v41 corrupt
+2020-07-25 17:50:07,608 :INFO : test_Corrupt_Package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 17:50:07,608 :INFO : test_Corrupt_Package :5SA.0.4-92-8.1.0-10.41.00_corrupt
+2020-07-25 17:50:07,826 :INFO : test_Corrupt_Package :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.corrupt.zip
+2020-07-25 17:50:17,643 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:55:18,621 :INFO : test_main_upgrade_package :Updating Main upgrade package details
+2020-07-25 17:55:18,621 :INFO : test_main_upgrade_package :ATT_USER_26.00-41.00
+2020-07-25 17:55:18,621 :INFO : test_main_upgrade_package :Upgrade from ATT v26 TA to v41 MR6 IFW4
+2020-07-25 17:55:18,621 :INFO : test_main_upgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-25 17:55:18,621 :INFO : test_main_upgrade_package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 17:55:18,846 :INFO : test_main_upgrade_package :nan
+2020-07-25 17:55:18,868 :INFO : test_main_upgrade_package :upload failed
+2020-07-25 17:55:18,873 :INFO : test_main_upgrade_package :=============moving to next upload !!!=============
+2020-07-25 17:55:19,012 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:55:45,411 :INFO : test_main_downgrade_package :Updating Main downgrade package details
+2020-07-25 17:55:45,411 :INFO : test_main_downgrade_package :ATT_v41.00 to v26.00
+2020-07-25 17:55:45,411 :INFO : test_main_downgrade_package :Downgrade from ATT v41 00 to V26 00
+2020-07-25 17:55:45,411 :INFO : test_main_downgrade_package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 17:55:45,411 :INFO : test_main_downgrade_package :5SA.0.3-11-8.1.0-10.26.00
+2020-07-25 17:55:45,624 :INFO : test_main_downgrade_package :nan
+2020-07-25 17:55:45,639 :INFO : test_main_downgrade_package :upload failed
+2020-07-25 17:55:45,640 :INFO : test_main_downgrade_package :=============moving to next upload !!!=============
+2020-07-25 17:55:45,807 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:55:45,807 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:56:10,858 :INFO : test_5MB :Updating 5MB package details
+2020-07-25 17:56:10,858 :INFO : test_5MB :ATT v41.00 to v41.00 5MB
+2020-07-25 17:56:10,858 :INFO : test_5MB :Upgrade from ATT v41 to v41 5MB
+2020-07-25 17:56:10,858 :INFO : test_5MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 17:56:10,858 :INFO : test_5MB :5SA.0.4-92-8.1.0-10.41.00_5MB
+2020-07-25 17:56:11,059 :INFO : test_5MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.5MB.zip
+2020-07-25 17:56:21,026 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:56:21,026 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:56:21,026 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:57:02,305 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:57:02,305 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:57:02,305 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:57:28,211 :INFO : test_20MB :Updating 20MB package details
+2020-07-25 17:57:28,211 :INFO : test_20MB :ATT v41.00 to v41.00 20MB
+2020-07-25 17:57:28,211 :INFO : test_20MB :Upgrade from ATT USER v41 to v41 20MB
+2020-07-25 17:57:28,211 :INFO : test_20MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 17:57:28,211 :INFO : test_20MB :5SA.0.4-92-8.1.0-10.41.00_20MB
+2020-07-25 17:57:28,386 :INFO : test_20MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.20MB.zip
+2020-07-25 17:57:38,290 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:57:38,290 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:57:38,290 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:57:38,290 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:59:05,464 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:59:05,464 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:59:05,464 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:59:05,464 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 17:59:32,796 :INFO : test_50MB :Updating 50MB package details
+2020-07-25 17:59:32,796 :INFO : test_50MB :ATT v41.00 to v41.00 50MB
+2020-07-25 17:59:32,796 :INFO : test_50MB :Upgrade from ATT USER v41 to v41 50MB
+2020-07-25 17:59:32,796 :INFO : test_50MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 17:59:32,796 :INFO : test_50MB :5SA.0.4-92-8.1.0-10.41.00_50MB
+2020-07-25 17:59:32,967 :INFO : test_50MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.50MB.zip
+2020-07-25 17:59:42,599 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:59:42,599 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:59:42,599 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:59:42,599 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 17:59:42,599 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:03:18,920 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:03:18,920 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:03:18,920 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:03:18,920 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:03:18,920 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:03:45,608 :INFO : test_200MB :Updating 200MB package details
+2020-07-25 18:03:45,608 :INFO : test_200MB :ATT v41.00 to v41.00 200MB
+2020-07-25 18:03:45,608 :INFO : test_200MB :Upgrade from ATT USER v41 to v41 200MB
+2020-07-25 18:03:45,608 :INFO : test_200MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 18:03:45,608 :INFO : test_200MB :5SA.0.4-92-8.1.0-10.41.00_200MB
+2020-07-25 18:03:45,871 :INFO : test_200MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.200MB.zip
+2020-07-25 18:03:55,874 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:03:55,874 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:03:55,874 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:03:55,874 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:03:55,874 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:03:55,874 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:07,737 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:17:07,737 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:17:07,737 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:17:07,737 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:17:07,737 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:17:07,737 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:17:31,400 :INFO : test_250MB :Updating 250MB package details
+2020-07-25 18:17:31,400 :INFO : test_250MB :ATT v41.00 to v41.00 250MB
+2020-07-25 18:17:31,400 :INFO : test_250MB :Upgrade from ATT USER v41 to v41 250MB
+2020-07-25 18:17:31,400 :INFO : test_250MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 18:17:31,400 :INFO : test_250MB :5SA.0.4-92-8.1.0-10.41.00_250MB
+2020-07-25 18:17:31,485 :INFO : test_250MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.250MB.zip
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:17:41,256 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:38:57,512 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 18:39:53,763 :INFO : test_500MB :Updating 500MB package details
+2020-07-25 18:39:53,763 :INFO : test_500MB :ATT v41.00 to v41.00 500MB
+2020-07-25 18:39:53,763 :INFO : test_500MB :Upgrade from ATT USER v41 to v41 500MB
+2020-07-25 18:39:53,763 :INFO : test_500MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 18:39:53,763 :INFO : test_500MB :5SA.0.4-92-8.1.0-10.41.00_500MB
+2020-07-25 18:39:53,848 :INFO : test_500MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.500MB.zip
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 18:40:03,541 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:02,967 :INFO : verifyResult2hrTimeout :     Firmware added successfully     
+2020-07-25 19:25:41,301 :INFO : test_1200MB :Updating 1200MB package details
+2020-07-25 19:25:41,301 :INFO : test_1200MB :ATT v41.00 to v41.00 1200MB
+2020-07-25 19:25:41,301 :INFO : test_1200MB :Upgrade from ATT USER v41 to v41 1200MB
+2020-07-25 19:25:41,301 :INFO : test_1200MB :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 19:25:41,301 :INFO : test_1200MB :5SA.0.4-92-8.1.0-10.41.00_1200MB
+2020-07-25 19:25:41,576 :INFO : test_1200MB :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.1200MB.zip
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 19:25:51,718 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:51:23,122 :INFO : verifyResult2hrTimeout :     Firmware added successfully     
+2020-07-25 20:51:23,122 :INFO : verifyResult2hrTimeout :     Firmware added successfully     
+2020-07-25 20:51:59,648 :INFO : test_Corrupt_Package :Updating corrupt package details
+2020-07-25 20:51:59,648 :INFO : test_Corrupt_Package :ATT v41 00 to v41 00 corrupt
+2020-07-25 20:51:59,653 :INFO : test_Corrupt_Package :Upgrade from ATT v41 to v41 corrupt
+2020-07-25 20:51:59,653 :INFO : test_Corrupt_Package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 20:51:59,653 :INFO : test_Corrupt_Package :5SA.0.4-92-8.1.0-10.41.00_corrupt
+2020-07-25 20:52:00,183 :INFO : test_Corrupt_Package :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.00_USER.corrupt.zip
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:10,054 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:52:49,867 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:53:16,266 :INFO : test_SVN_Upgrade_Package :Updating svn upgrade package details
+2020-07-25 20:53:16,267 :INFO : test_SVN_Upgrade_Package :ATT v41 SVN 16  tov41 SVN 93 
+2020-07-25 20:53:16,267 :INFO : test_SVN_Upgrade_Package :Upgrade from ATT v41 SVN 16 to v41 SVN 93
+2020-07-25 20:53:16,267 :INFO : test_SVN_Upgrade_Package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 20:53:16,267 :INFO : test_SVN_Upgrade_Package :5SA.0.4-93-8.1.0-10.41.00
+2020-07-25 20:53:16,449 :INFO : test_SVN_Upgrade_Package :D:\Python_XDM\packages\v41_IFW4\SVN\SONIM_XP5812_5SA.0.4-16-8.1.0-10.41.00_TO_5SA.0.4-93-8.1.0-10.41.00_USER.zip
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:53:26,309 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:02,261 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:54:30,097 :INFO : test_Double_Upgrade_Package :Updating double upgrade package details
+2020-07-25 20:54:30,097 :INFO : test_Double_Upgrade_Package :ATT v41 SVN 92 to v41.20 SVN 92
+2020-07-25 20:54:30,097 :INFO : test_Double_Upgrade_Package :Upgrade from ATT v41 SVN 92 to v41 20 SVN 92
+2020-07-25 20:54:30,097 :INFO : test_Double_Upgrade_Package :5SA.0.4-92-8.1.0-10.41.00
+2020-07-25 20:54:30,097 :INFO : test_Double_Upgrade_Package :5SA.0.4-92-8.1.0-10.41.20
+2020-07-25 20:54:30,283 :INFO : test_Double_Upgrade_Package :D:\Python_XDM\packages\v41_IFW4\20MB\SONIM_XP5812_5SA.0.4-92-8.1.0-10.41.00_TO_5SA.0.4-92-8.1.0-10.41.20_USER.20MB.zip
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:54:40,116 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:12,199 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:56:43,866 :INFO : test_Common_Downgrade_Package :Updating common downgrade test package details
+2020-07-25 20:56:43,867 :INFO : test_Common_Downgrade_Package :ATT v41 SVN 92 to v41 SVN 16
+2020-07-25 20:56:43,868 :INFO : test_Common_Downgrade_Package :Downgrade from ATT v41 SVN 92 to v41 SVN 16
+2020-07-25 20:56:43,868 :INFO : test_Common_Downgrade_Package :5SA.0.4-92-8.1.0-10.41.00
+2020-07-25 20:56:43,869 :INFO : test_Common_Downgrade_Package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 20:56:44,157 :INFO : test_Common_Downgrade_Package :D:\Python_XDM\packages\v41_IFW4\5MB\SONIM_XP5812_5SA.0.4-92-8.1.0-10.41.00_TO_5SA.0.4-16-8.1.0-10.41.00_USER.zip
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:56:54,386 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:57:52,286 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:58:27,435 :INFO : test_SVN_Downgrade_Package :Updating svn downgrade test package details
+2020-07-25 20:58:27,435 :INFO : test_SVN_Downgrade_Package :ATT v41 SVN 93  to v41 SVN 16
+2020-07-25 20:58:27,435 :INFO : test_SVN_Downgrade_Package :Downgrade from ATT v41 SVN 93 to v41 SVN 16
+2020-07-25 20:58:27,435 :INFO : test_SVN_Downgrade_Package :5SA.0.4-93-8.1.0-10.41.00
+2020-07-25 20:58:27,435 :INFO : test_SVN_Downgrade_Package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 20:58:27,594 :INFO : test_SVN_Downgrade_Package :D:\Python_XDM\packages\v41_IFW4\SVN\SONIM_XP5812_5SA.0.4-93-8.1.0-10.41.00_TO_5SA.0.4-16-8.1.0-10.41.00_USER.zip
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:58:37,669 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:29,075 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 20:59:59,871 :INFO : test_Downgrade_of_Double_Upgrade_Package :Updating downgrade of double upgrade test package details
+2020-07-25 20:59:59,871 :INFO : test_Downgrade_of_Double_Upgrade_Package :ATT v41.20 SVN 92 to v41 SVN 16
+2020-07-25 20:59:59,871 :INFO : test_Downgrade_of_Double_Upgrade_Package :Downgrade from ATT v41 20 SVN 92 to v41 SVN 16
+2020-07-25 20:59:59,871 :INFO : test_Downgrade_of_Double_Upgrade_Package :5SA.0.4-92-8.1.0-10.41.20
+2020-07-25 20:59:59,871 :INFO : test_Downgrade_of_Double_Upgrade_Package :5SA.0.4-16-8.1.0-10.41.00
+2020-07-25 21:00:00,134 :INFO : test_Downgrade_of_Double_Upgrade_Package :D:\Python_XDM\packages\v41_IFW4\20MB\SONIM_XP5812_5SA.0.4-92-8.1.0-10.41.20_TO_5SA.0.4-16-8.1.0-10.41.00_USER.zip
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:00:10,263 :INFO : clickAddPackage :Package uploading started,please wait
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     

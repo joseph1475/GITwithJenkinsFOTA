@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="sidcluc128" name="pytest" skipped="0" tests="15" time="11170.676" timestamp="2020-07-25T17:54:53.693418"><testcase classname="test_01_MainUpgradePackage.TestFOTA" file="test_01_MainUpgradePackage.py" line="10" name="test_main_upgrade_package" time="26.340"><failure message="selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: Dismissed user prompt dialog: Source version cannot be blank">self = &lt;tests.test_01_MainUpgradePackage.TestFOTA object at 0x0D90D598&gt;
+
+    def test_main_upgrade_package(self):
+        try:
+            log = self.getLogger()
+            self.selectProjectDetails()
+            sheet = self.excelPathOf16038()
+            log.info(&quot;Updating Main upgrade package details&quot;)
+            file_name = sheet[&apos;h16&apos;].value
+            log.info(file_name)
+            file_description = sheet[&apos;i16&apos;].value
+            log.info(file_description)
+            source_version = sheet[&apos;c16&apos;].value
+            log.info(source_version)
+            target_version = sheet[&apos;e16&apos;].value
+            log.info(target_version)
+            filename = XDMdetailsFrom16038(self.driver)
+            filename.appname().send_keys(file_name)
+            FileDescription = XDMdetailsFrom16038(self.driver)
+            FileDescription.appdesc().send_keys(file_description)
+            excel = self.packagesPathFromReadmeExcel()
+            path = excel.iloc[5, 2]
+            log.info(path)
+            uploadfile = XDMdetailsFrom16038(self.driver)
+            uploadfile.uplfile().send_keys(path)
+            SourceVersion = XDMdetailsFrom16038(self.driver)
+            SourceVersion.sourceversion().send_keys(source_version)
+            TargetVersion = XDMdetailsFrom16038(self.driver)
+            TargetVersion.targetversion().send_keys(target_version)
+            self.appSeverityMedium()
+        except Exception:
+            log.info(&quot;upload failed&quot;)
+            log.info(&quot;=============moving to next upload !!!=============&quot;)
+        finally:
+            self.clickAddPackage()
+&gt;           self.verifyResult()
+
+test_01_MainUpgradePackage.py:44: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\utilities\BaseClass.py:62: in verifyResult
+    WebDriverWait(self.driver, 1800).until(
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\wait.py:71: in until
+    value = method(self._driver)
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py:64: in __call__
+    return _find_element(driver, self.locator)
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py:415: in _find_element
+    raise e
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py:411: in _find_element
+    return driver.find_element(*by)
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:976: in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:321: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0D929F88&gt;
+response = {&apos;status&apos;: 500, &apos;value&apos;: &apos;{&quot;value&quot;:{&quot;error&quot;:&quot;unexpected alert open&quot;,&quot;message&quot;:&quot;Dismissed user prompt dialog: Source ve...content/error.js:460:5\\nGeckoDriver.prototype._handleUserPrompts@chrome://marionette/content/driver.js:3415:13\\n&quot;}}&apos;}
+
+    def check_response(self, response):
+        &quot;&quot;&quot;
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        &quot;&quot;&quot;
+        status = response.get(&apos;status&apos;, None)
+        if status is None or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get(&quot;message&quot;, &quot;&quot;)
+        screen = response.get(&quot;screen&quot;, &quot;&quot;)
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get(&apos;value&apos;, None)
+            if value_json and isinstance(value_json, basestring):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value[&apos;value&apos;]
+                    status = value.get(&apos;error&apos;, None)
+                    if status is None:
+                        status = value[&quot;status&quot;]
+                        message = value[&quot;value&quot;]
+                        if not isinstance(message, basestring):
+                            value = message
+                            message = message.get(&apos;message&apos;)
+                    else:
+                        message = value.get(&apos;message&apos;, None)
+                except ValueError:
+                    pass
+    
+        exception_class = ErrorInResponseException
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if value == &apos;&apos; or value is None:
+            value = response[&apos;value&apos;]
+        if isinstance(value, basestring):
+            if exception_class == ErrorInResponseException:
+                raise exception_class(response, value)
+            raise exception_class(value)
+        if message == &quot;&quot; and &apos;message&apos; in value:
+            message = value[&apos;message&apos;]
+    
+        screen = None
+        if &apos;screen&apos; in value:
+            screen = value[&apos;screen&apos;]
+    
+        stacktrace = None
+        if &apos;stackTrace&apos; in value and value[&apos;stackTrace&apos;]:
+            stacktrace = []
+            try:
+                for frame in value[&apos;stackTrace&apos;]:
+                    line = self._value_or_default(frame, &apos;lineNumber&apos;, &apos;&apos;)
+                    file = self._value_or_default(frame, &apos;fileName&apos;, &apos;&lt;anonymous&gt;&apos;)
+                    if line:
+                        file = &quot;%s:%s&quot; % (file, line)
+                    meth = self._value_or_default(frame, &apos;methodName&apos;, &apos;&lt;anonymous&gt;&apos;)
+                    if &apos;className&apos; in frame:
+                        meth = &quot;%s.%s&quot; % (frame[&apos;className&apos;], meth)
+                    msg = &quot;    at %s (%s)&quot;
+                    msg = msg % (meth, file)
+                    stacktrace.append(msg)
+            except TypeError:
+                pass
+        if exception_class == ErrorInResponseException:
+            raise exception_class(response, message)
+        elif exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if &apos;data&apos; in value:
+                alert_text = value[&apos;data&apos;].get(&apos;text&apos;)
+            elif &apos;alert&apos; in value:
+                alert_text = value[&apos;alert&apos;].get(&apos;text&apos;)
+&gt;           raise exception_class(message, screen, stacktrace, alert_text)
+E           selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+E           Message: Dismissed user prompt dialog: Source version cannot be blank
+
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py:241: UnexpectedAlertPresentException</failure></testcase><testcase classname="test_02_MainDowngradePackage.TestFOTA" file="test_02_MainDowngradePackage.py" line="10" name="test_main_downgrade_package" time="26.535"><failure message="selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+Message: Dismissed user prompt dialog: Source version cannot be blank">self = &lt;tests.test_02_MainDowngradePackage.TestFOTA object at 0x0D90D628&gt;
+
+    def test_main_downgrade_package(self):
+        try:
+            log = self.getLogger()
+            self.selectProjectDetails()
+            sheet = self.excelPathOf16038()
+            log.info(&quot;Updating Main downgrade package details&quot;)
+            file_name = sheet[&apos;h19&apos;].value
+            log.info(file_name)
+            file_description = sheet[&apos;i19&apos;].value
+            log.info(file_description)
+            source_version = sheet[&apos;c19&apos;].value
+            log.info(source_version)
+            target_version = sheet[&apos;e19&apos;].value
+            log.info(target_version)
+            filename = XDMdetailsFrom16038(self.driver)
+            filename.appname().send_keys(file_name)
+            FileDescription = XDMdetailsFrom16038(self.driver)
+            FileDescription.appdesc().send_keys(file_description)
+            excel = self.packagesPathFromReadmeExcel()
+            path = excel.iloc[7, 2]
+            log.info(path)
+            uploadfile = XDMdetailsFrom16038(self.driver)
+            uploadfile.uplfile().send_keys(path)
+            SourceVersion = XDMdetailsFrom16038(self.driver)
+            SourceVersion.sourceversion().send_keys(source_version)
+            TargetVersion = XDMdetailsFrom16038(self.driver)
+            TargetVersion.targetversion().send_keys(target_version)
+            self.appSeverityMedium()
+            self.selectDowngrade()
+        except Exception:
+            log.info(&quot;upload failed&quot;)
+            log.info(&quot;=============moving to next upload !!!=============&quot;)
+        finally:
+            self.clickAddPackage()
+&gt;           self.verifyResult()
+
+test_02_MainDowngradePackage.py:45: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+..\utilities\BaseClass.py:62: in verifyResult
+    WebDriverWait(self.driver, 1800).until(
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\wait.py:71: in until
+    value = method(self._driver)
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py:64: in __call__
+    return _find_element(driver, self.locator)
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py:415: in _find_element
+    raise e
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\support\expected_conditions.py:411: in _find_element
+    return driver.find_element(*by)
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:976: in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py:321: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0DD94850&gt;
+response = {&apos;status&apos;: 500, &apos;value&apos;: &apos;{&quot;value&quot;:{&quot;error&quot;:&quot;unexpected alert open&quot;,&quot;message&quot;:&quot;Dismissed user prompt dialog: Source ve...content/error.js:460:5\\nGeckoDriver.prototype._handleUserPrompts@chrome://marionette/content/driver.js:3415:13\\n&quot;}}&apos;}
+
+    def check_response(self, response):
+        &quot;&quot;&quot;
+        Checks that a JSON response from the WebDriver does not have an error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        &quot;&quot;&quot;
+        status = response.get(&apos;status&apos;, None)
+        if status is None or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get(&quot;message&quot;, &quot;&quot;)
+        screen = response.get(&quot;screen&quot;, &quot;&quot;)
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get(&apos;value&apos;, None)
+            if value_json and isinstance(value_json, basestring):
+                import json
+                try:
+                    value = json.loads(value_json)
+                    if len(value.keys()) == 1:
+                        value = value[&apos;value&apos;]
+                    status = value.get(&apos;error&apos;, None)
+                    if status is None:
+                        status = value[&quot;status&quot;]
+                        message = value[&quot;value&quot;]
+                        if not isinstance(message, basestring):
+                            value = message
+                            message = message.get(&apos;message&apos;)
+                    else:
+                        message = value.get(&apos;message&apos;, None)
+                except ValueError:
+                    pass
+    
+        exception_class = ErrorInResponseException
+        if status in ErrorCode.NO_SUCH_ELEMENT:
+            exception_class = NoSuchElementException
+        elif status in ErrorCode.NO_SUCH_FRAME:
+            exception_class = NoSuchFrameException
+        elif status in ErrorCode.NO_SUCH_WINDOW:
+            exception_class = NoSuchWindowException
+        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:
+            exception_class = StaleElementReferenceException
+        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:
+            exception_class = ElementNotVisibleException
+        elif status in ErrorCode.INVALID_ELEMENT_STATE:
+            exception_class = InvalidElementStateException
+        elif status in ErrorCode.INVALID_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR \
+                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:
+            exception_class = InvalidSelectorException
+        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:
+            exception_class = ElementNotSelectableException
+        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:
+            exception_class = ElementNotInteractableException
+        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:
+            exception_class = InvalidCookieDomainException
+        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:
+            exception_class = UnableToSetCookieException
+        elif status in ErrorCode.TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.SCRIPT_TIMEOUT:
+            exception_class = TimeoutException
+        elif status in ErrorCode.UNKNOWN_ERROR:
+            exception_class = WebDriverException
+        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:
+            exception_class = UnexpectedAlertPresentException
+        elif status in ErrorCode.NO_ALERT_OPEN:
+            exception_class = NoAlertPresentException
+        elif status in ErrorCode.IME_NOT_AVAILABLE:
+            exception_class = ImeNotAvailableException
+        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:
+            exception_class = ImeActivationFailedException
+        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:
+            exception_class = MoveTargetOutOfBoundsException
+        elif status in ErrorCode.JAVASCRIPT_ERROR:
+            exception_class = JavascriptException
+        elif status in ErrorCode.SESSION_NOT_CREATED:
+            exception_class = SessionNotCreatedException
+        elif status in ErrorCode.INVALID_ARGUMENT:
+            exception_class = InvalidArgumentException
+        elif status in ErrorCode.NO_SUCH_COOKIE:
+            exception_class = NoSuchCookieException
+        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:
+            exception_class = ScreenshotException
+        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:
+            exception_class = ElementClickInterceptedException
+        elif status in ErrorCode.INSECURE_CERTIFICATE:
+            exception_class = InsecureCertificateException
+        elif status in ErrorCode.INVALID_COORDINATES:
+            exception_class = InvalidCoordinatesException
+        elif status in ErrorCode.INVALID_SESSION_ID:
+            exception_class = InvalidSessionIdException
+        elif status in ErrorCode.UNKNOWN_METHOD:
+            exception_class = UnknownMethodException
+        else:
+            exception_class = WebDriverException
+        if value == &apos;&apos; or value is None:
+            value = response[&apos;value&apos;]
+        if isinstance(value, basestring):
+            if exception_class == ErrorInResponseException:
+                raise exception_class(response, value)
+            raise exception_class(value)
+        if message == &quot;&quot; and &apos;message&apos; in value:
+            message = value[&apos;message&apos;]
+    
+        screen = None
+        if &apos;screen&apos; in value:
+            screen = value[&apos;screen&apos;]
+    
+        stacktrace = None
+        if &apos;stackTrace&apos; in value and value[&apos;stackTrace&apos;]:
+            stacktrace = []
+            try:
+                for frame in value[&apos;stackTrace&apos;]:
+                    line = self._value_or_default(frame, &apos;lineNumber&apos;, &apos;&apos;)
+                    file = self._value_or_default(frame, &apos;fileName&apos;, &apos;&lt;anonymous&gt;&apos;)
+                    if line:
+                        file = &quot;%s:%s&quot; % (file, line)
+                    meth = self._value_or_default(frame, &apos;methodName&apos;, &apos;&lt;anonymous&gt;&apos;)
+                    if &apos;className&apos; in frame:
+                        meth = &quot;%s.%s&quot; % (frame[&apos;className&apos;], meth)
+                    msg = &quot;    at %s (%s)&quot;
+                    msg = msg % (meth, file)
+                    stacktrace.append(msg)
+            except TypeError:
+                pass
+        if exception_class == ErrorInResponseException:
+            raise exception_class(response, message)
+        elif exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if &apos;data&apos; in value:
+                alert_text = value[&apos;data&apos;].get(&apos;text&apos;)
+            elif &apos;alert&apos; in value:
+                alert_text = value[&apos;alert&apos;].get(&apos;text&apos;)
+&gt;           raise exception_class(message, screen, stacktrace, alert_text)
+E           selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None
+E           Message: Dismissed user prompt dialog: Source version cannot be blank
+
+..\..\..\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\errorhandler.py:241: UnexpectedAlertPresentException</failure></testcase><testcase classname="test_03_5MB.TestFOTA" file="test_03_5MB.py" line="11" name="test_5MB" time="76.394"></testcase><testcase classname="test_04_20MB.TestFOTA" file="test_04_20MB.py" line="12" name="test_20MB" time="123.135"></testcase><testcase classname="test_05_50MB.TestFOTA" file="test_05_50MB.py" line="10" name="test_50MB" time="253.524"></testcase><testcase classname="test_06_200MB.TestFOTA" file="test_06_200MB.py" line="10" name="test_200MB" time="828.609"></testcase><testcase classname="test_07_250MB.TestFOTA" file="test_07_250MB.py" line="10" name="test_250MB" time="1313.129"></testcase><testcase classname="test_08_500MB.TestFOTA" file="test_08_500MB.py" line="10" name="test_500MB" time="2764.551"></testcase><testcase classname="test_09_1200MB.TestFOTA" file="test_09_1200MB.py" line="10" name="test_1200MB" time="5179.457"></testcase><testcase classname="test_10_Corrupt_Package.TestFOTA" file="test_10_Corrupt_Package.py" line="10" name="test_Corrupt_Package" time="85.273"></testcase><testcase classname="test_11_SVN_Upgrade_Package.TestFOTA" file="test_11_SVN_Upgrade_Package.py" line="10" name="test_SVN_Upgrade_Package" time="72.279"></testcase><testcase classname="test_12_Double_Upgrade_Package.TestFOTA" file="test_12_Double_Upgrade_Package.py" line="10" name="test_Double_Upgrade_Package" time="130.120"></testcase><testcase classname="test_13_Common_Downgrade_Package.TestFOTA" file="test_13_Common_Downgrade_Package.py" line="10" name="test_Common_Downgrade_Package" time="100.233"></testcase><testcase classname="test_14_SVN_Downgrade_Package.TestFOTA" file="test_14_SVN_Downgrade_Package.py" line="10" name="test_SVN_Downgrade_Package" time="96.230"></testcase><testcase classname="test_15_Downgrade_of_Double_Upgrade_Package.TestFOTA" file="test_15_Downgrade_of_Double_Upgrade_Package.py" line="10" name="test_Downgrade_of_Double_Upgrade_Package" time="91.641"></testcase></testsuite></testsuites>
