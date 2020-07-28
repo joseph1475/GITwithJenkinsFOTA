@@ -695,3 +695,6 @@
 2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
 2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
 2020-07-25 21:01:00,682 :INFO : verifyResult :     Firmware added successfully     
+2020-07-28 12:01:18,917 :INFO : test_main_upgrade_package :upload failed
+2020-07-28 12:01:18,927 :INFO : test_main_upgrade_package :=============moving to next upload !!!=============
+2020-07-28 12:01:19,074 :INFO : clickAddPackage :Package uploading started,please wait

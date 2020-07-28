@@ -41,7 +41,6 @@ def setup(request):
         print("Invalid Login Please Try Again")
         print("Login failed - !!!XDM account will be blocked on three incorrect password.!!!")
         # driver.close()
-    #assert driver.current_url == "https://xdme.wireless.att.com/jsp/main/main.jsp"
     request.cls.driver = driver
     yield
     driver.close()
