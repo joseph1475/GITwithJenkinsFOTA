@@ -25,6 +25,8 @@ class BaseClass:
         return logger
 
     def selectProjectDetails(self):
+        pass
+        '''
         self.driver.find_element_by_link_text("Setup").click()  # to select setup text in main screen
         time.sleep(2)
         self.driver.find_element_by_link_text("Firmware").click()  # to select Firmware from sub text of Setup
@@ -33,8 +35,27 @@ class BaseClass:
         dropdown.select_by_visible_text("ATT.SONIM")  # select ATT.SONIM from drop box
         dropdown = Select(self.driver.find_element_by_xpath("//select[@name='MANU_ID']"))  # selecting next drop down
         dropdown.select_by_visible_text("Sonim Technologies Inc")  # select Sonim Technologies Inc from drop box
+
         dropdown = Select(self.driver.find_element_by_xpath("//select[@name='IMEI_ID']"))  # selecting next drop down
         dropdown.select_by_visible_text("XP5800")  # select XP5800 from drop box
+
+
+
+    def model(self, request):
+        model_name = request.config.getoption("model_name")
+        dropdown = Select(self.driver.find_element_by_xpath("//select[@name='IMEI_ID']"))
+        if model_name == "XP5800":
+            dropdown.select_by_visible_text("XP5800")
+            print("XP5800")
+        elif model_name == "XP3800":
+            dropdown.select_by_visible_text("XP3800")
+            print("XP3800")
+        elif model_name == "XP8800":
+            dropdown.select_by_visible_text("XP8800")
+            print("XP8800")
+
+    '''
+
 
     def appSeverityMedium(self):
         dropdown = Select(self.driver.find_element_by_xpath("//select[@name ='APP_SEVERITY']"))
