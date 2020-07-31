@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="sidcluc128" name="pytest" skipped="0" tests="1" time="28.451" timestamp="2020-07-31T08:14:28.509977"><testcase time="20.818"></testcase><testcase classname="pytest" name="internal" time="0.000"><error message="internal error">Traceback (most recent call last):
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="sidcluc128" name="pytest" skipped="0" tests="1" time="70.929" timestamp="2020-07-31T13:30:47.275374"><testcase time="21.697"></testcase><testcase classname="pytest" name="internal" time="0.000"><error message="internal error">Traceback (most recent call last):
   File &quot;c:\users\joseph.p\appdata\local\programs\python\python38-32\lib\site-packages\_pytest\main.py&quot;, line 191, in wrap_session
     session.exitstatus = doit(config, session) or 0
   File &quot;c:\users\joseph.p\appdata\local\programs\python\python38-32\lib\site-packages\_pytest\main.py&quot;, line 247, in _main
@@ -43,9 +43,9 @@
     self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
   File &quot;c:\users\joseph.p\appdata\local\programs\python\python38-32\lib\site-packages\pluggy\callers.py&quot;, line 203, in _multicall
     gen.send(outcome)
-  File &quot;C:\Users\joseph.p\PycharmProjects\FOTA_Model_select\tests\conftest.py&quot;, line 92, in pytest_runtest_makereport
+  File &quot;C:\Users\joseph.p\PycharmProjects\FOTA_Model_select\tests\conftest.py&quot;, line 90, in pytest_runtest_makereport
     _capture_screenshot(file_name)
-  File &quot;C:\Users\joseph.p\PycharmProjects\FOTA_Model_select\tests\conftest.py&quot;, line 101, in _capture_screenshot
+  File &quot;C:\Users\joseph.p\PycharmProjects\FOTA_Model_select\tests\conftest.py&quot;, line 99, in _capture_screenshot
     driver.get_screenshot_as_file(name)
   File &quot;c:\users\joseph.p\appdata\local\programs\python\python38-32\lib\site-packages\selenium\webdriver\remote\webdriver.py&quot;, line 1032, in get_screenshot_as_file
     png = self.get_screenshot_as_png()

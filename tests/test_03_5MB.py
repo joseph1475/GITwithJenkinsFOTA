@@ -13,7 +13,6 @@ class TestFOTA(BaseClass):
         try:
             log = self.getLogger()
             self.selectProjectDetails()
-            #self.model()
             sheet = self.excelPathOf16038()
             log.info("Updating 5MB package details")
             file_name = sheet['h20'].value

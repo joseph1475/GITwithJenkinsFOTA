@@ -45,6 +45,7 @@ def setup(request):
         print("Invalid Login Please Try Again")
         print("Login failed - !!!XDM account will be blocked on three incorrect password.!!!")
 
+
     driver.find_element_by_link_text("Setup").click()  # to select setup text in main screen
     time.sleep(2)
     driver.find_element_by_link_text("Firmware").click()  # to select Firmware from sub text of Setup
@@ -53,10 +54,8 @@ def setup(request):
     dropdown.select_by_visible_text("ATT.SONIM")  # select ATT.SONIM from drop box
     dropdown = Select(driver.find_element_by_xpath("//select[@name='MANU_ID']"))  # selecting next drop down
     dropdown.select_by_visible_text("Sonim Technologies Inc")  # select Sonim Technologies Inc from drop box
-
     #dropdown = Select(driver.find_element_by_xpath("//select[@name='IMEI_ID']"))  # selecting next drop down
     #dropdown.select_by_visible_text("XP5800")  # select XP5800 from drop box
-
     model_name = request.config.getoption("model_name")
     dropdown = Select(driver.find_element_by_xpath("//select[@name='IMEI_ID']"))
     if model_name == "XP5800":
@@ -68,7 +67,6 @@ def setup(request):
     elif model_name == "XP8800":
         dropdown.select_by_visible_text("XP8800")
         print("XP8800")
-
     request.cls.driver = driver
     yield
     driver.close()
