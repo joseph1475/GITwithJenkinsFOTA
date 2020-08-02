@@ -32,12 +32,23 @@ class BaseClass:
         time.sleep(2)
         self.driver.find_element_by_link_text("Firmware").click()  # to select Firmware from sub text of Setup
         dropdown = Select(self.driver.find_element_by_xpath(
-            "//select[@name ='GROUP_ID']"))  # To handle the drop options we are using select class method by importing Select
+        "//select[@name ='GROUP_ID']"))  # To handle the drop options we are using select class method by importing Select
         dropdown.select_by_visible_text("ATT.SONIM")  # select ATT.SONIM from drop box
         dropdown = Select(self.driver.find_element_by_xpath("//select[@name='MANU_ID']"))  # selecting next drop down
         dropdown.select_by_visible_text("Sonim Technologies Inc")  # select Sonim Technologies Inc from drop box
-        #dropdown = Select(self.driver.find_element_by_xpath("//select[@name='IMEI_ID']"))  # selecting next drop down
+        #dropdown = Select(driver.find_element_by_xpath("//select[@name='IMEI_ID']"))  # selecting next drop down
         #dropdown.select_by_visible_text("XP5800")  # select XP5800 from drop box
+        ##model_name = request.config.getoption("model_name")
+        dropdown = Select(self.driver.find_element_by_xpath("//select[@name='IMEI_ID']"))
+        if self.model_name == "XP5800":
+            dropdown.select_by_visible_text("XP5800")
+            print("XP5800")
+        elif self.model_name == "XP3800":
+            dropdown.select_by_visible_text("XP3800")
+            print("XP3800")
+        elif self.model_name == "XP8800":
+            dropdown.select_by_visible_text("XP8800")
+            print("XP8800")
         '''
 
     def appSeverityMedium(self):
@@ -80,7 +91,8 @@ class BaseClass:
         assert output == "     Firmware added successfully     "
 
     def excelPathOf16038(self):
-        excel = pd.read_excel(r"D:\Python_XDM\FOTA_Setup_Readme.xlsx", sheet_name=1)
+        excel = pd.read_excel(self.excel_path, sheet_name=1)
+        #excel = pd.read_excel(r"D:\Python_XDM\FOTA_Setup_Readme.xlsx", sheet_name=1)
         path = excel.iloc[3, 2]
         openpyxl.load_workbook(path)
         workbook = openpyxl.load_workbook(path)  # loading workbook from the path given
@@ -88,5 +100,6 @@ class BaseClass:
         return sheet
 
     def packagesPathFromReadmeExcel(self):
-        excel = pd.read_excel(r"D:\Python_XDM\FOTA_Setup_Readme.xlsx", sheet_name=1)
+        excel = pd.read_excel(self.excel_path, sheet_name=1)
+        #excel = pd.read_excel(r"D:\Python_XDM\FOTA_Setup_Readme.xlsx", sheet_name=1)
         return excel

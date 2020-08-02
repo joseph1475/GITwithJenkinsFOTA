@@ -14,7 +14,15 @@ def pytest_addoption(parser):
     parser.addoption(
         "--model_name", action="store", default="XP5800"
     )
-
+    parser.addoption(
+        "--login_name", action="store", default=""
+    )
+    parser.addoption(
+        "--login_password", action = "store", default = ""
+    )
+    parser.addoption(
+        "--excel_path", action="store", default=""
+    )
 
 @pytest.fixture(scope="class")
 def setup(request):
@@ -29,22 +37,31 @@ def setup(request):
     driver.implicitly_wait(30)  # implicitly wait will wait for the events to occur
     print(driver.title)  # title of web page
     print(driver.current_url)  # url loaded to be printed
-    excel = pd.read_excel(r"D:\Python_XDM\FOTA_Setup_Readme.xlsx", sheet_name=1)  # using pandas for calling excel
-    username = excel.iloc[0, 2]  # used to locate values
-    password = excel.iloc[1, 2]
+    #to run from pycharm enable this
+    #excel = pd.read_excel(r"D:\Python_XDM\FOTA_Setup_Readme.xlsx", sheet_name=1)  # using pandas for calling excel
+    #username = excel.iloc[0, 2]  # used to locate values
+    #password = excel.iloc[1, 2]
+    excel_path = request.config.getoption("excel_path")
+    print(excel_path)
+    excel = pd.read_excel(excel_path, sheet_name=1)
+    request.cls.excel_path = excel_path
+    username = request.config.getoption("login_name")     #getting login details from jenkins
+    password = request.config.getoption("login_password")
     driver.find_element_by_name("LOGIN").send_keys(
         username)  # Username read from FOTA_Setup_readme.txt using name method
     print("Username entered")
+    time.sleep(1)
     driver.find_element_by_css_selector("input[name='PASSWORD']").send_keys(
         password)  # enter password using css selector method
     print("Password entered")
+    time.sleep(1)
     driver.find_element_by_xpath("//input[@type='submit']").click()  # to select the sumit button using xpath method
     if driver.current_url == "https://xdme.wireless.att.com/jsp/main/main.jsp":
         print("Login success")
     else:
         print("Invalid Login Please Try Again")
         print("Login failed - !!!XDM account will be blocked on three incorrect password.!!!")
-
+        driver.quit()
 
     driver.find_element_by_link_text("Setup").click()  # to select setup text in main screen
     time.sleep(2)
